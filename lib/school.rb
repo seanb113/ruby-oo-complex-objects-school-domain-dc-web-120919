@@ -1,5 +1,8 @@
 class School
-  attr_accessor :name, :roster, :grade
+  attr_accessor :roster, :grade
+  attr_reader :name
+
+  def initi
 
   def sort
     sorted = {}
