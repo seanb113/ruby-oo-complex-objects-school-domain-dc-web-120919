@@ -17,3 +17,4 @@ class School
     sorted = {}
     roster.each do |'grade', 'name'|
   end
+end
